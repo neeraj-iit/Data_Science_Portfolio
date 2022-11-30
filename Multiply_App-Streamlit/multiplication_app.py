@@ -13,8 +13,8 @@ def main():
   st.title("Multiply Two Numbers")
   
   html_temp = """
-  <div style="background-color:Red;padding:10px">
-  <h2 style="color:white;text-align:center;">Multiplication of 2 numbers using Streamlit</h2>
+  <div style="background-color:Maroon;padding:10px">
+  <h2 style="color:white;text-align:center;">Multiplication of two given numbers using Streamlit</h2>
   </div> """
   
   st.markdown(html_temp,unsafe_allow_html=True)
@@ -26,7 +26,7 @@ def main():
   else:
       result=num1*num2
       
-  st.success('The output is {}'.format(result))
+  st.success('Multiply of these two numbers is {}'.format(result))
   
   if st.button("Made By"):
       st.text("Neeraj Yadav")
