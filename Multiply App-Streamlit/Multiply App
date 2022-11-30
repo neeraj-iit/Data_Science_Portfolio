@@ -5,7 +5,7 @@ def main():
   html_temp = """
   <div style="background-color:Red;padding:10px">
   <h2 style="color:white;text-align:center;">Multiplication of 2 numbers using Streamlit</h2>
-  </div>
+  </div> """
   st.markdown(html_temp,unsafe_allow_html=True)
   num1 = st.number_input("Number 1")
   num2 = st.number_input("Number 2")
